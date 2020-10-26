@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     content: {
       paddingLeft: 0,
-      height: "100%",
+      minHeight: "100vh",
     },
   })
 );
