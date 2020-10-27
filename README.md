@@ -57,6 +57,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Validate if input fields has value
 
 <img src="https://github.com/imarceloi/beercoins-g3/tree/dev/readme-assets/login.gif?raw=true" width="500px"/>
+<img src="https://github.com/imarceloi/beercoins-g3/tree/dev/readme-assets/Beer-Coin.jpg?raw=true" width="500px"/>
 
 ## Signup page
 
