@@ -12,17 +12,17 @@ Deploy automático pelo Vercel
 -->
 <h1 align="center">
   <br>
-  <img src="https://github.com/johnnyg3p/beercoins-g3/blob/main/src/images/logo.png?raw=true" height="200px"/>
+  <img src="https://github.com/imarceloi/beercoins-g3/blob/dev/src/images/logo.png" height="200px"/>
   <br>
   <br>
 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 <em>It was created for a challenge given by <b>BeerTech Talents</b>. The main objective of this challenge is to create an application where the customer can access a virtual wallet. In this virtual walled, the customer can check his balance, take a statement, and transfer amounts to another account.</em>
 
-
 # Table of Contents
+
 - [Available Scripts](#available-scripts)
   - [yarn start](#yarn-start)
   - [yarn test](#yarn-test)
@@ -32,7 +32,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Importing a Component](#importing-a-component)
 - [Adding a Stylesheet](#adding-a-stylesheet)
 - [Adding Images and Fonts](#adding-images-and-fonts)
-
 
 <br>
 <br>
@@ -196,8 +195,8 @@ After creation, your project should look like this:
 
 For the project to build, **these files must exist with exact filenames**:
 
-* `public/index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
+- `public/index.html` is the page template;
+- `src/index.js` is the JavaScript entry point.
 
 You can delete or rename the other files.
 
@@ -219,6 +218,7 @@ The generated project includes React and ReactDOM as dependencies. It also inclu
 ```
 yarn add <library-name>
 ```
+
 <br>
 
 # Importing a Component
@@ -231,7 +231,7 @@ For example:
 ### `Button.js`
 
 ```js
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Button extends Component {
   render() {
@@ -244,10 +244,9 @@ export default Button; // Don’t forget to use export default!
 
 ### `DangerButton.js`
 
-
 ```js
-import React, { Component } from 'react';
-import Button from './Button'; // Import a component from another file
+import React, { Component } from "react";
+import Button from "./Button"; // Import a component from another file
 
 class DangerButton extends Component {
   render() {
@@ -266,9 +265,9 @@ Named exports are useful for utility modules that export several functions. A mo
 
 Learn more about ES6 modules:
 
-* [When to use the curly braces?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
-* [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
-* [Understanding ES6: Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
+- [When to use the curly braces?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
+- [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
+- [Understanding ES6: Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
 
 <br>
 
@@ -287,8 +286,8 @@ This project setup uses [node-sass](https://github.com/sass/node-sass) for handl
 ### `Button.js`
 
 ```js
-import React, { Component } from 'react';
-import './Button.scss'; // Tell Webpack that Button.js uses these styles
+import React, { Component } from "react";
+import "./Button.scss"; // Tell Webpack that Button.js uses these styles
 
 class Button extends Component {
   render() {
@@ -309,8 +308,8 @@ You can **`import` an image right in a JavaScript module**. This tells Webpack t
 Here is an example:
 
 ```js
-import React from 'react';
-import logo from './logo.png'; // Tell Webpack this JS file uses this image
+import React from "react";
+import logo from "./logo.png"; // Tell Webpack this JS file uses this image
 
 console.log(logo); // /logo.84287d09.png
 
