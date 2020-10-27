@@ -13,12 +13,12 @@ import HomeIcon from "@material-ui/icons/Home";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import { SwapVert, AttachMoney } from "@material-ui/icons";
+import { SwapHoriz,SwapVert, AttachMoney } from "@material-ui/icons";
 import { useAuthContext } from "../../context/Auth";
 import { Link, NavLink } from "react-router-dom";
 import "./Sidebar.scss";
 
-const drawerWidth = 180;
+const drawerWidth = 210;
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -108,6 +108,13 @@ const SideBar = (props: IProps) => {
     },
     {
       id: 3,
+      text: "Mudar Permissões",
+      icon: <SwapHoriz />,
+      link: "/role-change",
+      userType: "ROLE_MODERATOR",
+    },
+    {
+      id: 4,
       text: "Pagamentos",
       icon: <AttachMoney />,
       link: "/payments",

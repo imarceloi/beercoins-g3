@@ -35,7 +35,7 @@ const renderTable = (statement: IStatement[] | null) => {
       return (
         <TableRow className="statement-empty">
           <TableCell colSpan={3} align="center">
-            Você ainda não possui lanlamentos
+            Você ainda não possui lançamentos
           </TableCell>
         </TableRow>
       );
